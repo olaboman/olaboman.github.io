@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Personvern</title>
+
+<style media="screen">
+  body {
+    background-color: white;
+    color: black;
+    margin: 30px;
+
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+  }
+
+  li a:hover:not(.active) {
+    background-color: #ddd;
+  }
+
+  li a.active {
+    color: white;
+    background-color: #04AA6D;
+  }
+
+  #top, #bottom, #left, #right {
+  	background: #a5ebff;
+  	position: fixed;
+  	}
+  	#left, #right {
+  		top: 0; bottom: 0;
+  		width: 20px;
+  		}
+  		#left { left: 0; }
+  		#right { right: 0; }
+
+  	#top, #bottom {
+  		left: 0; right: 0;
+  		height: 20px;
+  		}
+  		#top { top: 0; }
+  		#bottom { bottom: 0; }
+ul{
+  list-style-type: none;
+
+}
+
+.test {
+  z-index: 10;
+
+  color: black;
+  
+  display: flex;
+  justify-content: center;
+}
+
+/* Container holding the image and the text */
+.container {  
+  text-align: center;
+  color: white;
+}
+
+/* Bottom left text */
+.tittel {
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 57px;
+}
+
+  </style>
+  </head>
+  <body>
+    
+
+    <div id="left"></div>
+    <div id="right"></div>
+    <div id="top"></div>
+    <div id="bottom"></div>
+
+
+
+  <ul>
+    <li><a class="active" href="#Hjem">Hjem</a></li>
+    <li><a href="Personvernside.html">Personvern</a></li>
+    <li><a href="Gdpr.html">GDPR</a></li>
+    <li><a href="Hacker.html">Hacker</a></li>
+    <li><a href="Kilder.html">Kilder</a></li>
+  </ul>
+  <div class="container">
+    <img src="https://www.i-bolig.no/media/1039/personvern-i-bolig2.png?anchor=center&mode=crop&width=1170&format=jpg&rnd=131695719330000000" alt="">
+    <div class="tittel">Personvern</div>
+  </div>
+  <video width="320" height="240" controls>
+    <source src="Personvern.mp4" type="video/mp4"
+  </video>
+
+  </body>
+  </html>
+ 
+
+
+
+   
